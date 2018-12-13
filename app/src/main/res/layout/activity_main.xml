@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activity.activity.MainActivity"
+    android:id="@+id/coordinator_main_activity"
+    >
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/rv_lista_contas"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+    </android.support.v7.widget.RecyclerView>
+
+    <com.getbase.floatingactionbutton.FloatingActionsMenu
+        android:id="@+id/multipleActionsFloatingButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:fab_addButtonStrokeVisible="true"
+        app:fab_labelStyle="@style/menu_labels_style"
+        app:fab_labelsPosition="left"
+        tools:ignore="MissingConstraints"
+        android:layout_marginRight="@dimen/fab_margin"
+        android:layout_marginBottom="@dimen/fab_margin"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        >
+
+        <com.getbase.floatingactionbutton.FloatingActionButton
+            android:id="@+id/btnNovaConta_FloatActionButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:fab_colorNormal="#2c53a7"
+            app:fab_icon="@drawable/ic_monetization_on_black_24dp"
+            app:fab_size="mini"
+            app:fab_title="@string/texto_nova_conta" />
+
+        <com.getbase.floatingactionbutton.FloatingActionButton
+            android:id="@+id/btnAddReceita_FloatActionButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:fab_colorNormal="#2a7a12"
+            app:fab_icon="@drawable/ic_monetization_on_black_24dp"
+            app:fab_size="mini"
+            app:fab_title="@string/texto_receita" />
+
+        <com.getbase.floatingactionbutton.FloatingActionButton
+            android:id="@+id/btnAddDespesa_FloatActionButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:fab_colorNormal="#fd0000"
+            app:fab_icon="@drawable/ic_monetization_on_black_24dp"
+            app:fab_size="mini"
+            app:fab_title="@string/texto_despesa" />
+    </com.getbase.floatingactionbutton.FloatingActionsMenu>
+
+</android.support.constraint.ConstraintLayout>

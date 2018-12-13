@@ -1,0 +1,33 @@
+<resources>
+
+    <string name="app_name">Gerenciador Financeiro</string>
+    <string name="texto_conta">Conta</string>
+    <string name="texto_nova_conta">Nova Conta</string>
+    <string name="texto_saldo">Saldo</string>
+    <string name="texto_campos_vazios">Existem campos vazios!!</string>
+    <string name="texto_conta_ok">A conta está ok!</string>
+    <string name="texto_natureza">Natureza</string>
+    <string name="texto_sal">Salvar</string>
+    <string name="texto_nova">Nova</string>
+    <string name="texto_descr">Descrição</string>
+    <string name="texto_conta_adicionada">Conta adicionada</string>
+    <string name="texto_data">Data</string>
+    <string name="texto_trans_adicionada">Transação adicionada</string>
+    <string name="texto_trans_removida">Transação removida</string>
+    <string name="texto_receita">Receita</string>
+    <string name="texto_despesa">Despesa</string>
+    <string name="texto_valor">Valor</string>
+    <string name="texto_can">Cancelar</string>
+    <string name="texto_cat">Categoria</string>
+    <string name="texto_rel">Relatórios</string>
+    <string name="texto_erro">Ocorreu um erro ao salvar</string>
+    <string name="texto_conta_removida">Conta removida</string>
+    <string name="texto_sem_dados">Sem dados</string>
+    <string name="texto_buscar">Buscar</string>
+
+    <string-array name="natureza_transacao">
+        <item>Credito</item>
+        <item>Débito</item>
+    </string-array>
+
+</resources>
